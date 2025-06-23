@@ -17,15 +17,15 @@ public class Fechas_Recurrentes extends Servicios_Adicionales{
     public Double getPrecio() {
         return precio;
     }
-
+    @Override
     public void setPrecio(Double precio) {
         this.precio = precio;
     }
-    
+
     public int getCapacidad() {
         return capacidad;
     }
-
+    @Override
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }

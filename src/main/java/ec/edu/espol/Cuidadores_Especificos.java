@@ -16,7 +16,7 @@ public class Cuidadores_Especificos extends Servicios_Adicionales{
     public Double getPrecio() {
         return precio;
     }
-
+    @Override
     public void setPrecio(Double precio) {
         this.precio = precio;
     }
@@ -24,10 +24,9 @@ public class Cuidadores_Especificos extends Servicios_Adicionales{
     public int getCapacidad() {
         return capacidad;
     }
-
+    @Override
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
-    
     
 }
