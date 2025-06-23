@@ -43,4 +43,12 @@ public class Personal {
                 ", correo='" + correo + '\'' +
                 '}';
     }
+
+    public void mandarComentario (){}
+
+    public void resolverProblema(){}
+
+    public void verProblema(){}
+
+    public void escalarEAGeneral(){}
 }
