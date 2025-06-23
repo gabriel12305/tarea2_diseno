@@ -18,6 +18,11 @@ public class Administrador extends Usuario {
         System.out.println("Gestión de citas: " + gestor);
     }
 
+    public void configurarServicio(String tipo, double nuevo, ServicioEspecializado servicio){}
+    public void configurarHorario(){}
+    public void configurarPromociones(){}
+    public void configurarCancelado(){}
+
     @Override
     public String toString() {
         return "Administrador{" +
